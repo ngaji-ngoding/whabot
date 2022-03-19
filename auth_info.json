@@ -1,0 +1,13 @@
+{
+  "clientID": "O5m2TxBDskcdIM3tz9pOKA==",
+  "encKey": {
+    "type": "Buffer",
+    "data": "FUYpV5BZ0yvpdaes2CGen3Et2d88hvhgT8kvEEPeiFw="
+  },
+  "macKey": {
+    "type": "Buffer",
+    "data": "Mk5obyLRNjsq1Vg7WKB83RS6HJsMFujYpjvA6bV0JTo="
+  },
+  "clientToken": "uXfgXOADxFVW9eB2SGs/7whGcQr4wjBaYywmS2vvoBo=",
+  "serverToken": "1@EhT9XHA4E48hq+8L8c1hJ1A+0u3kfLVbkptjkOjAeSqEq/Sxm+olZoO6TnQ4MJ1a/DEWlpTB+8nAQg=="
+}
