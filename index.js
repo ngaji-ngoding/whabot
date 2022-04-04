@@ -3,10 +3,8 @@ const {
   //makeWALegacySocket,
   DisconnectReason,
   useSingleFileAuthState,
-  //useSingleFileLegacyAuthState,
+  // useSingleFileLegacyAuthState,
 } = require("@adiwajshing/baileys");
-//const makeWASocket = require("@adiwajshing/baileys");
-console.log(makeWASocket);
 const { Boom } = require("@hapi/boom");
 
 const { state, saveState } = useSingleFileAuthState("./auth_info.json");
@@ -48,7 +46,7 @@ function startBot() {
       responseList = messages[0].message.listResponseMessage;
       responbutton = messages[0].message.buttonsResponseMessage;
       noHp = messages[0].key.remoteJid;
-      sock.chatRead(messages[0].key, 1);
+      // sock.chatRead(messages[0].key, 1);
     }
     if (!messages[0].key.fromMe && pesan == "gabung group") {
       sock.groupParticipantsUpdate("120363040098805358@g.us", [noHp], "add");
